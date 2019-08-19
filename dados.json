@@ -1,0 +1,524 @@
+[
+    {
+        "parte": "pt1",
+        "partes": [
+            {
+                "id": "A1",
+                "texto": "A cavalo dado"
+            },
+            {
+                "id": "A2",
+                "texto": "À noite"
+            },
+            {
+                "id": "A3",
+                "texto": "Água mole em pedra dura"
+            },
+            {
+                "id": "A4",
+                "texto": "Amigos amigos"
+            },
+            {
+                "id": "A5",
+                "texto": "Até ao lavar dos cestos"
+            },
+            {
+                "id": "A6",
+                "texto": "Cão que ladra"
+            },
+            {
+                "id": "A7",
+                "texto": "Casa roubada"
+            },
+            {
+                "id": "A8",
+                "texto": "Com papas e bolos"
+            },
+            {
+                "id": "A9",
+                "texto": "De pequenino"
+            },
+            {
+                "id": "A10",
+                "texto": "Deitar cedo e cedo erguer"
+            },
+            {
+                "id": "A11",
+                "texto": "Depressa e bem"
+            },
+            {
+                "id": "A12",
+                "texto": "Deus dá nozes"
+            },
+            {
+                "id": "A13",
+                "texto": "Deus escreve direito"
+            },
+            {
+                "id": "A14",
+                "texto": "Em casa de ferreiro"
+            },
+            {
+                "id": "A15",
+                "texto": "Em casa onde não há pão"
+            },
+            {
+                "id": "A16",
+                "texto": "Em roma"
+            },
+            {
+                "id": "A17",
+                "texto": "Em tempo de guerra"
+            },
+            {
+                "id": "A18",
+                "texto": "Em terra de cego"
+            },
+            {
+                "id": "A19",
+                "texto": "Entre marido e mulher"
+            },
+            {
+                "id": "A20",
+                "texto": "Filho de peixe"
+            },
+            {
+                "id": "A21",
+                "texto": "Gaivotas em terra"
+            },
+            {
+                "id": "A22",
+                "texto": "Gato escaldado"
+            },
+            {
+                "id": "A23",
+                "texto": "Grão a grão"
+            },
+            {
+                "id": "A24",
+                "texto": "Há mar e mar"
+            },
+            {
+                "id": "A25",
+                "texto": "Homem prevenido"
+            },
+            {
+                "id": "A26",
+                "texto": "Ladrão que rouba a ladrão"
+            },
+            {
+                "id": "A27",
+                "texto": "Longe da vista"
+            },
+            {
+                "id": "A28",
+                "texto": "Mais depressa se apanha um mentiroso"
+            },
+            {
+                "id": "A29",
+                "texto": "Mais vale prevenir"
+            },
+            {
+                "id": "A30",
+                "texto": "Mais vale só"
+            },
+            {
+                "id": "A31",
+                "texto": "Mais vale um pássaro na mão"
+            },
+            {
+                "id": "A32",
+                "texto": "Nem oito"
+            },
+            {
+                "id": "A33",
+                "texto": "Nem tanto ao mar"
+            },
+            {
+                "id": "A34",
+                "texto": "Nem tudo o que reluz"
+            },
+            {
+                "id": "A35",
+                "texto": "Nem tudo o que vem à rede"
+            },
+            {
+                "id": "A36",
+                "texto": "No melhor pano"
+            },
+            {
+                "id": "A37",
+                "texto": "Para bom entendedor"
+            },
+            {
+                "id": "A38",
+                "texto": "Para grandes males"
+            },
+            {
+                "id": "A39",
+                "texto": "Para quem é"
+            },
+            {
+                "id": "A40",
+                "texto": "Patrão fora"
+            },
+            {
+                "id": "A41",
+                "texto": "Pimenta no cu dos outros"
+            },
+            {
+                "id": "A42",
+                "texto": "Preso por ter cão"
+            },
+            {
+                "id": "A43",
+                "texto": "Presunção e água benta"
+            },
+            {
+                "id": "A44",
+                "texto": "Quando a esmola é grande"
+            },
+            {
+                "id": "A45",
+                "texto": "Quantas mais pressas"
+            },
+            {
+                "id": "A46",
+                "texto": "Quem conta um conto"
+            },
+            {
+                "id": "A47",
+                "texto": "Quem corre por gosto"
+            },
+            {
+                "id": "A48",
+                "texto": "Quem desdenha"
+            },
+            {
+                "id": "A49",
+                "texto": "Quem não arrisca"
+            },
+            {
+                "id": "A50",
+                "texto": "Quem não deve"
+            },
+            {
+                "id": "A51",
+                "texto": "Quem não tem cão"
+            },
+            {
+                "id": "A52",
+                "texto": "Quem parte velho"
+            },
+            {
+                "id": "A53",
+                "texto": "Quem ri por último"
+            },
+            {
+                "id": "A54",
+                "texto": "Quem sai aos seus"
+            },
+            {
+                "id": "A55",
+                "texto": "Quem semeia ventos"
+            },
+            {
+                "id": "A56",
+                "texto": "Quem tem boca"
+            },
+            {
+                "id": "A57",
+                "texto": "Quem tudo quer"
+            },
+            {
+                "id": "A58",
+                "texto": "Quem vai à guerra"
+            },
+            {
+                "id": "A59",
+                "texto": "Santos da casa"
+            },
+            {
+                "id": "A60",
+                "texto": "Tão ladrão é o que rouba"
+            },
+            {
+                "id": "A61",
+                "texto": "Todos os caminhos"
+            },
+            {
+                "id": "A62",
+                "texto": "Vão-se os anéis "
+            },
+            {
+                "id": "A63",
+                "texto": "Vozes de burro"
+            },
+            {
+                "id": "A64",
+                "texto": "Zangam-se as comadres"
+            }
+        ]
+    },
+    {
+        "parte": "pt2",
+        "partes": [
+            {
+                "id": "B1",
+                "texto": "não se olha o dente"
+            },
+            {
+                "id": "B2",
+                "texto": "todos os gatos são pardos"
+            },
+            {
+                "id": "B3",
+                "texto": "tanto bate até que fura"
+            },
+            {
+                "id": "B4",
+                "texto": "negócios à parte"
+            },
+            {
+                "id": "B5",
+                "texto": "é vindima"
+            },
+            {
+                "id": "B6",
+                "texto": "não morde"
+            },
+            {
+                "id": "B7",
+                "texto": "trancas à porta"
+            },
+            {
+                "id": "B8",
+                "texto": "se enganam os tolos"
+            },
+            {
+                "id": "B9",
+                "texto": "se torce o pepino"
+            },
+            {
+                "id": "B10",
+                "texto": "dá saúde e faz crescer"
+            },
+            {
+                "id": "B11",
+                "texto": "há pouco quem"
+            },
+            {
+                "id": "B12",
+                "texto": "a quem não tem dentes"
+            },
+            {
+                "id": "B13",
+                "texto": "por linhas tortas"
+            },
+            {
+                "id": "B14",
+                "texto": "espeto de pau"
+            },
+            {
+                "id": "B15",
+                "texto": "todos ralham e ninguém tem razão"
+            },
+            {
+                "id": "B16",
+                "texto": "sê romano"
+            },
+            {
+                "id": "B17",
+                "texto": "todo o buraco é trincheira"
+            },
+            {
+                "id": "B18",
+                "texto": "quem tem olho é rei"
+            },
+            {
+                "id": "B19",
+                "texto": "não se mete a colher"
+            },
+            {
+                "id": "B20",
+                "texto": "sabe nadar"
+            },
+            {
+                "id": "B21",
+                "texto": "tempestade no mar"
+            },
+            {
+                "id": "B22",
+                "texto": "de água fria tem medo"
+            },
+            {
+                "id": "B23",
+                "texto": "enche a galinha o papo"
+            },
+            {
+                "id": "B24",
+                "texto": "há ir e voltar"
+            },
+            {
+                "id": "B25",
+                "texto": "vale por dois"
+            },
+            {
+                "id": "B26",
+                "texto": "tem cem anos de perdão"
+            },
+            {
+                "id": "B27",
+                "texto": "longe do coração"
+            },
+            {
+                "id": "B28",
+                "texto": "que um coxo"
+            },
+            {
+                "id": "B29",
+                "texto": "que remediar"
+            },
+            {
+                "id": "B30",
+                "texto": "que mal acompanhado"
+            },
+            {
+                "id": "B31",
+                "texto": "que dois a voar"
+            },
+            {
+                "id": "B32",
+                "texto": "nem oitenta"
+            },
+            {
+                "id": "B33",
+                "texto": "nem tanto à terra"
+            },
+            {
+                "id": "B34",
+                "texto": "é ouro"
+            },
+            {
+                "id": "B35",
+                "texto": "é peixe"
+            },
+            {
+                "id": "B36",
+                "texto": "cai a mancha"
+            },
+            {
+                "id": "B37",
+                "texto": "meia palavra basta"
+            },
+            {
+                "id": "B38",
+                "texto": "grandes remédios"
+            },
+            {
+                "id": "B39",
+                "texto": "bacalhau basta"
+            },
+            {
+                "id": "B40",
+                "texto": "dia santo na loja"
+            },
+            {
+                "id": "B41",
+                "texto": "para mim é refresco"
+            },
+            {
+                "id": "B42",
+                "texto": "preso por não ter"
+            },
+            {
+                "id": "B43",
+                "texto": "cada um toma a que quer"
+            },
+            {
+                "id": "B44",
+                "texto": "o pobre desconfia"
+            },
+            {
+                "id": "B45",
+                "texto": "mais vagares"
+            },
+            {
+                "id": "B46",
+                "texto": "acrescenta um ponto"
+            },
+            {
+                "id": "B47",
+                "texto": "não cansa"
+            },
+            {
+                "id": "B48",
+                "texto": "quer comprar"
+            },
+            {
+                "id": "B49",
+                "texto": "não petisca"
+            },
+            {
+                "id": "B50",
+                "texto": "não teme"
+            },
+            {
+                "id": "B51",
+                "texto": "caça com gato"
+            },
+            {
+                "id": "B52",
+                "texto": "paga novo"
+            },
+            {
+                "id": "B53",
+                "texto": "ri melhor"
+            },
+            {
+                "id": "B54",
+                "texto": "não degenera"
+            },
+            {
+                "id": "B55",
+                "texto": "colhe tempestades"
+            },
+            {
+                "id": "B56",
+                "texto": "vai a Roma"
+            },
+            {
+                "id": "B57",
+                "texto": "tudo perde"
+            },
+            {
+                "id": "B58",
+                "texto": "dá e leva"
+            },
+            {
+                "id": "B59",
+                "texto": "não fazem milagres"
+            },
+            {
+                "id": "B60",
+                "texto": "como o que fica à porta"
+            },
+            {
+                "id": "B61",
+                "texto": "vão dar a Roma"
+            },
+            {
+                "id": "B62",
+                "texto": "ficam os dedos"
+            },
+            {
+                "id": "B63",
+                "texto": "não chegam ao céu"
+            },
+            {
+                "id": "B64",
+                "texto": "sabem-se as verdades"
+            }
+        ]
+    }
+]
