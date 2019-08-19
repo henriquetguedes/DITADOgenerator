@@ -17,25 +17,30 @@
 
 <body class="uk-background-secondary" style="margin: 0px; min-height:100vh" onload="randoCenas()">
 
+    <nav class="uk-navbar-container uk-margin" uk-navbar>
+        <div class="uk-navbar-center">
+            <a class="uk-navbar-item uk-logo" href="#">Ditado-generator</a>
+        </div>
+    </nav>
 
-    <p id="ditados"></p>
-
-    <button class="uk-button uk-button-default" onclick="randoCenas()">Mais um!</button>
-
+    <div style="width: 90vw; margin: auto" , class="uk-light uk-text-center">
+        <br>
+        <h3 id="ditados"></h3>
+        <br>
+        <br>
+        <button class="uk-button uk-button-default" onclick="randoCenas()">Mais um!</button>
+        <br>
+        <br>
+        <!--
+        <a href=""  class="twitter-share-button" data-show-count="false">Tweet</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+        <a target=_blank uk-icon="icon: twitter" href="#" id="tweetar"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">Tweetar </a>
+    </div>
 </body>
 
 <script>
     var pt1 = new Array
-    pt1[0] = "testedf1"
-    pt1[2] = "tesdsfsdfte1"
-    pt1[3] = "tsdfsdfeste1"
-    pt1[1] = "teste1"
-
     var pt2 = new Array
-    pt2[0] = "testdfgdfgdfgdfgdfgedf1"
-    pt2[2] = "tesdsffgdfgdfgsdfte1"
-    pt2[3] = "tsdfsdfgdfgdfgdfeste1"
-    pt2[1] = "testdfgdfgdfgdfge1"
 
     var teste = null;
     $.ajax({
@@ -51,14 +56,17 @@
     pt1 = teste[0].partes;
     pt2 = teste[1].partes;
 
-    console.log(pt1)
-
+    //console.log(pt1)
 
     function randoCenas() {
         var ditado
         ditado = pt1[Math.floor(Math.random() * pt1.length)].texto + " " + pt2[Math.floor(Math.random() * pt2.length)].texto;
-        console.log(ditado)
+        //console.log(ditado)
         document.getElementById("ditados").innerHTML = ditado;
+        var link = document.getElementById("tweetar");
+        var tweeto = "https://twitter.com/intent/tweet?text=" + ditado + "%0A%0Agerado%20no%20%23DitadoGenerator%0A%0Ahttps://henriquetguedes.github.io/DITADOgenerator";
+        tweeto = tweeto.replace(/ /g, "%20");
+        link.setAttribute("href", tweeto);
     }
 </script>
 
