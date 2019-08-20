@@ -46,9 +46,11 @@
     </div>
 
     <div style="width: 90vw; margin: auto" , class="uk-text-center">
+        <p class="uk-light" style="display: inline-block; visibility: hidden">Solução</p>
         <p class="uk-light" style="display: inline-block; visibility: hidden" id="pt1pr"></p>
         <p style="display: inline-block; visibility: hidden" id="pt2pr"></p>
         <p class="uk-light" id="solu" onclick="mostrar()">Solução</p>
+        <br id="spac" style="display: inline-block; visibility: hidden">
         <p style="display: inline-block; visibility: hidden" id="pt1sn"></p>
         <p class="uk-light" style="display: inline-block; visibility: hidden" id="pt2sn"></p>
     </div>
@@ -102,7 +104,8 @@
         document.getElementById("pt1sn").style.visibility = "hidden";
         document.getElementById("pt2sn").style.visibility = "hidden";
         document.getElementById("solu").style.visibility = "visible";
-
+        document.getElementById("solu").style.display = "";
+        document.getElementById("spac").style.display = "inline-block";
     };
 
     function mostrar(){
@@ -111,6 +114,8 @@
         document.getElementById("pt1sn").style.visibility = "visible";
         document.getElementById("pt2sn").style.visibility = "visible";
         document.getElementById("solu").style.visibility = "hidden";
+        document.getElementById("solu").style.display = "inline-block";
+        document.getElementById("spac").style.display = "";
     };
 </script>
 
