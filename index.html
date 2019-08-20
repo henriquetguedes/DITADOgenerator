@@ -46,11 +46,11 @@
     </div>
 
     <div style="width: 90vw; margin: auto" , class="uk-text-center">
-        <p class="uk-light" style="display: inline-block" id="pt1pr"></p>
-        <p style="display: inline-block" id="pt2pr"></p>
-        <br>
-        <p style="display: inline-block" id="pt1sn"></p>
-        <p class="uk-light" style="display: inline-block" id="pt2sn"></p>
+        <p class="uk-light" style="display: inline-block; visibility: hidden" id="pt1pr"></p>
+        <p style="display: inline-block; visibility: hidden" id="pt2pr"></p>
+        <p class="uk-light" id="solu" onclick="mostrar()">Solução</p>
+        <p style="display: inline-block; visibility: hidden" id="pt1sn"></p>
+        <p class="uk-light" style="display: inline-block; visibility: hidden" id="pt2sn"></p>
     </div>
 </body>
 
@@ -96,7 +96,22 @@
         document.getElementById("pt2pr").innerHTML = pt2[num1].texto;
         document.getElementById("pt1sn").innerHTML = pt1[num2].texto;
         document.getElementById("pt2sn").innerHTML = pt2[num2].texto;
-    }
+
+        document.getElementById("pt1pr").style.visibility = "hidden";
+        document.getElementById("pt2pr").style.visibility = "hidden";
+        document.getElementById("pt1sn").style.visibility = "hidden";
+        document.getElementById("pt2sn").style.visibility = "hidden";
+        document.getElementById("solu").style.visibility = "visible";
+
+    };
+
+    function mostrar(){
+        document.getElementById("pt1pr").style.visibility = "visible";
+        document.getElementById("pt2pr").style.visibility = "visible";
+        document.getElementById("pt1sn").style.visibility = "visible";
+        document.getElementById("pt2sn").style.visibility = "visible";
+        document.getElementById("solu").style.visibility = "hidden";
+    };
 </script>
 
 </html>
