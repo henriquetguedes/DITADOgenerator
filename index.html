@@ -25,21 +25,24 @@
 
     <div style="width: 90vw; margin: auto" , class="uk-light uk-text-center">
         <br>
-        <h2 id="ditados"></h3>
-        <br>
-        <br>
-        <button class="uk-button uk-button-default" onclick="randoCenas()">Mais um!</button>
-        <br>
-        <br>
-        <!--
+        <h2 id="ditados">
+            </h3>
+            <br>
+            <br>
+            <button class="uk-button uk-button-default" onclick="randoCenas()">Mais um!</button>
+            <br>
+            <br>
+            <!--
         <a href=""  class="twitter-share-button" data-show-count="false">Tweet</a>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
-        <a target=_blank uk-icon="icon: twitter" href="#" id="tweetar"
-            onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">Tweetar
-        </a>
-        <br>
-        <br>
-        <br>
+            <a target=_blank uk-icon="icon: twitter" href="#" id="tweetar"
+                onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">Tweetar
+            </a>
+            <a target=_blank uk-icon="icon: mail" href="#" id="mailar">Email
+            </a>
+            <br>
+            <br>
+            <br>
     </div>
 
     <div style="width: 90vw; margin: auto" , class="uk-text-center">
@@ -81,6 +84,11 @@
 
         var link = document.getElementById("tweetar");
         var tweeto = "https://twitter.com/intent/tweet?text=" + ditado + "%0A%0Agerado%20no%20%23DitadoGenerator%0A%0Ahttps://henriquetguedes.github.io/DITADOgenerator";
+        tweeto = tweeto.replace(/ /g, "%20");
+        link.setAttribute("href", tweeto);
+
+        var link = document.getElementById("mailar");
+        var tweeto = "mailto:?subject=Gerei%20um%20ditado&amp;body=" + ditado + "%0A%0Agerado%20no%20%23DitadoGenerator%0A%0Ahttps:%47%47henriquetguedes.github.io%47DITADOgenerator";
         tweeto = tweeto.replace(/ /g, "%20");
         link.setAttribute("href", tweeto);
 
